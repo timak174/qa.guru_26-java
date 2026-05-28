@@ -10,16 +10,37 @@ public class Main {
         int aInt= 0; // -14 милиардов + 14 милиардов (32 бит)
         long aLong = 0; // биллиард и.т.д. (64 бит)
         // Типы с влавающей точкой
-        float aFloat = 0.0;
+        float aFloat = 0.0f;
         double aDouble = 0.0;
         // Символьный
         char aChar = 'a';
         // Логический
         boolean aBoolean = true;
         // Строка
-        String aString = "string";
+        System.out.println("Hello and welcome!");
+
+        // Опираторы
+
+        // Опиратотор присвоеноние (=)
+        String name = "ARTEM";
+        // Арифметические операторы (+ - / * % ++ --)
+        System.out.println(3 + 2);
+        // Оператоты сравнения (<, >, >=, <=, !=, ==)
+        System.out.println(3 > 2);
+        // Логические операторы (&, |, &&, ||, !)
+        // Оператор instanceof
+        // Тернарный оператор = где можно (есть возможность) вернуть какой - то результат.
+        char sex = 'm';
+        String childName = sex == 'm'
+                ? "Valentin"
+                : "Valentina";
+        // Управляющая конструкция (if)
+        if (sex == 'm') {
+            childName = "Valentin";
+        } else {
+            childName = "Valentina";
+        }
 
 
-        System.out.print("Hello and welcome!");
     }
 }
